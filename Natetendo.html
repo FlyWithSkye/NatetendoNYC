@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NatetendoNYC</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      line-height: 1.6;
+      color: #333;
+    }
+
+    header {
+      background: #000;
+      color: #fff;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+    }
+
+    nav a {
+      color: white;
+      margin-left: 1rem;
+      text-decoration: none;
+    }
+
+    .start {
+      height: 85vh;
+      background: url('https://via.placeholder.com/1600x800') no-repeat center/cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+      flex-direction: column;
+      padding: 1rem;
+    }
+
+    .start h1 {
+      font-size: 3rem;
+    }
+
+    .start p {
+      margin: 1rem 0;
+      font-size: 1.2rem;
+    }
+
+    .btn {
+      background: #ff6b00;
+      color: white;
+      padding: 0.7rem 1.5rem;
+      border-radius: 5px;
+      text-decoration: none;
+      border: none;
+      cursor: pointer;
+    }
+
+    section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .highlight {
+      background: #f4f4f4;
+      padding: 1rem;
+      border-radius: 8px;
+      margin: 1rem 0;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+    }
+
+    .grid img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    footer {
+      background: #000;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h2>NatetendoNYC</h2>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#gallery">Gallery</a>
+  </nav>
+</header>
+
+<section class="start">
+  <h1>Grand Opening</h1>
+  <p>Welcome to the opening of our new world</p>
+  <p><strong>NatetendoNYC</strong></p>
+</section>
+
+<section id="about">
+  <h2>About Our Store</h2>
+  <p>
+    After Covid-19 hit not many people have been invested in buying new consoles
+  </p>
+</section>
+
+<section id="opening">
+  <h2>Grand Opening Highlights</h2>
+
+  <div class="highlight">
+     Exclusive Products
+  </div>
+</section>
+
+<section id="gallery">
+  <h2>Preview</h2>
+
+  <div class="grid">
+    <img src="https://via.placeholder.com/300" alt="Store image">
+    <img src="https://via.placeholder.com/300" alt="Products">
+    <img src="https://via.placeholder.com/300" alt="Interior">
+  </div>
+</section>
+
+<footer>
+  <p>&copy; NatetendoNYC By : William Duroseau, Scott Cruz, John Chung</p>
+</footer>
+
+</body>
+</html>
